@@ -11,7 +11,6 @@
     * Free and open source
         * anyone can use it, everyone shares code
     * Interpreted
-        * 
     * High-level
     * portable
     * object oriented
@@ -46,8 +45,62 @@
     * int
     * float
     * str
+        * string "verbs"
+            * diff methods to extract info from string
+            * example: 
+            ```python
+            string = Joe
+            len(string)
+            # 3
+            string.lower()
+            # joe
+            ```
     * bool
     * list
     * sets
     * tuples
     * dict
+
+* Numerical data types & casting
+``` python
+# numerical data type --> int
+lenght = 40
+
+# casting 
+# int to str --> str(lenght)
+# float to str --> str(x)
+```
+
+* Lists
+    * sequence of elements w/ a particular order
+    * identified by their square brackets
+    * can use .split() to slice a list
+    * slicing
+        * can slice with []; the start is inclusive and the end is exclusive
+        * string_list[1:3] will get elements 1, 2
+        * gets the 2nd and 3rd elements in the list
+
+    * list comprehension
+        * we can manipulate a hwole list using list comprehension
+        ``` python
+        new_list = [0,3,4,5,6,7,8,3,3,7,9,5]
+        other_new_list = []
+        for i in new_list:
+            x = i+5
+            other_new_list.append(x)
+        print(other_new_list)
+        # other_new_list = [0,3,4,5,6,7,8,3,3,7,9,5]
+        ```
+    
+* Tuples
+    * data structures v similar to lists but with two main differences
+    * represented w/ parentheses instead of square brackets
+    * immutable
+    * Note: cannot be sliced
+
+* Sets
+    * unordered
+    * values are unique - no duplicates
+    * uses curly brackets
+
+

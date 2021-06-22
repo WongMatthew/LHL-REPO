@@ -62,14 +62,11 @@
     * dict
 
 * Numerical data types & casting
-``` python
-# numerical data type --> int
-lenght = 40
+    * numerical data type --> int
+    * casting 
+        * int to str --> str(lenght)
+        * float to str --> str(x)
 
-# casting 
-# int to str --> str(lenght)
-# float to str --> str(x)
-```
 
 * Lists
     * sequence of elements w/ a particular order
@@ -102,5 +99,26 @@ lenght = 40
     * unordered
     * values are unique - no duplicates
     * uses curly brackets
+
+* Dictionaries
+    * Dictionaries are unordered pairs of keys and corresponding values
+
+    ``` python
+    acc = {'name': 'jack', 'acc type': 'checking', 'branch': 'vancouver','age': 32}
+    acc['name']
+    # jack
+    acc['age']
+    # 32
+    acc.keys() # can be casted into a list
+    list(acc.keys())
+    # ['name', 'acc type', 'branch', 'age']
+    acc.values()
+    acc.items()
+    ```
+
+    * dictionaires can have labels or keys associated with a value where as a list only has an index
+        * in a list, order matters
+        * in a dictionary, order doesnt matter
+
 
 

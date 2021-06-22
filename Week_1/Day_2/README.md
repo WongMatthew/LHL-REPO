@@ -120,5 +120,9 @@
         * in a list, order matters
         * in a dictionary, order doesnt matter
 
+* Handling date and time in python
+    ```
+    from datetime import datetime
+    ```
 
 
